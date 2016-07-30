@@ -7,7 +7,6 @@
 //
 
 #import "Sheet.h"
-#import "PhotoHeader.h"
 
 @interface Sheet ()
 /** 所有按钮 */
@@ -23,10 +22,6 @@
 @property (nonatomic, weak) id<SheetDelegate> delegate;
 
 @property (nonatomic, strong) UIWindow *backWindow;
-
-
-
-
 
 @end
 @implementation Sheet
